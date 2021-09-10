@@ -12,6 +12,11 @@ namespace WindowsFormsApplication1
         String Nombre;
         int Edad;
         int Fecha_Nacimiento;
+        public int CalcularEdad()
+        {
+            Edad = Fecha_Nacimiento - 2021;
+            return Edad;
+
+        }
     }
-    public int CalcularEdad(
 }
