@@ -16,7 +16,13 @@ namespace WindowsFormsApplication1
         {
             Edad = Fecha_Nacimiento - 2021;
             return Edad;
-
+        }
+        public Class1(String cedula, String nombre, int edad, int fechaNacimiento)
+        {
+            this.Cedula = cedula;
+            this.Nombre = nombre;
+            this.Edad = edad;
+            this.Fecha_Nacimiento = fechaNacimiento;
         }
     }
 }
