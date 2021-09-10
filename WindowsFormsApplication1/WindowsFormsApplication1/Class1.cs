@@ -8,5 +8,10 @@ namespace WindowsFormsApplication1
 {
     class Class1
     {
+        String Cedula;
+        String Nombre;
+        int Edad;
+        int Fecha_Nacimiento;
     }
+    public int CalcularEdad(
 }
